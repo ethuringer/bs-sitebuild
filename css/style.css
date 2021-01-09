@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar {
+    font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 200;
+    transition: 0.3s;
+}
+
+.navbar-scroll {
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.navbar-brand {
+    color: #fdcc52;
+    font-weight: 200;
+}
+
+.navbar-brand-scroll {
+    color: #232428;
+    font-weight: 200;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-custom {
+    color: #cccecd;
+    font-size: .75rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.nav-custom-scroll {
+    color: #232428;
+}
+
+a.nav-link:hover {
+    color: #fff;
+}
+
+a.nav-link:focus {
+    color: #fdcc52;
+}
+
+.navbar-toggler {
+    border: 1px solid #232428;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    width: 1rem;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        background-color: #fff;
+    }
+
+    .navbar-brand,
+    .nav-custom {
+        color: #232428;
+    }
+
+    .navbar-brand:hover,
+    .nav-custom:hover {
+        color: #fdcc52;
+    }
+}
+
+.container-fluid {
+    background-image: url("/img/bg-pattern.png"), linear-gradient(to right, #DC2430, #7B4397);
+    background-repeat: repeat;
+}
+
+.start-button {
+    border: 1px solid #fff;
+    font-size: .65rem;
+    letter-spacing: .1rem;
+}
+
+.start-button:hover {
+    background-color: #fdcc52;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.phone {
+    position: relative;
+    width: 300px;
+    top: 0;
+}
+
+.demo {
+    position: absolute;
+    width: 265px;
+    left: 2rem;
+    top: 4rem;
+}
+
+@media (max-width: 768px) {
+    .demo {
+        left: 122px;
+        top: 64px;
+    }
+}
