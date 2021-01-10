@@ -1,6 +1,37 @@
 const navbar = document.querySelector('.navbar');
 const navbarBrand = navbar.querySelector('.navbar-brand');
 const navLink = Array.from(navbar.querySelectorAll('.nav-custom'));
+const navDownload = navbar.querySelector('.download');
+const navFeatures = navbar.querySelector('.features');
+const navContact = navbar.querySelector('.contact');
+
+// function findSection() {
+//     var section = document.querySelector();
+//     document.getElementById("demo").innerHTML = testDiv.offsetTop;
+//   }
+
+// function scrollNav() {
+//     window.scrollTo(0, 500);
+//   }
+//   scrollNav();
+
+navDownload.addEventListener('click', () => {
+    document.querySelector('.discover').scrollIntoView({ 
+        behavior: 'smooth' 
+      });
+})
+
+navFeatures.addEventListener('click', () => {
+    document.querySelector('.unlimited').scrollIntoView({ 
+        behavior: 'smooth' 
+      });
+})
+
+navContact.addEventListener('click', () => {
+    document.querySelector('.social').scrollIntoView({ 
+        behavior: 'smooth' 
+      });
+})
 
 window.onscroll = function() {scrollFunction()};
 
@@ -15,10 +46,5 @@ function scrollFunction() {
     navLink.map(item => item.classList.remove('nav-custom-scroll'));
   }
 }
-// function scrollFunction() {
-//   if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-//     navbar.style.background = "#fff";
-//   } else {
-//     navbar.style.background = "transparent";
-//   }
-// }
+
+
