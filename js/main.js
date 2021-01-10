@@ -5,21 +5,13 @@ const navDownload = navbar.querySelector('.download');
 const navFeatures = navbar.querySelector('.features');
 const navContact = navbar.querySelector('.contact');
 
-// function findSection() {
-//     var section = document.querySelector();
-//     document.getElementById("demo").innerHTML = testDiv.offsetTop;
-//   }
-
-// function scrollNav() {
-//     window.scrollTo(0, 500);
-//   }
-//   scrollNav();
 
 navDownload.addEventListener('click', () => {
     document.querySelector('.discover').scrollIntoView({ 
         behavior: 'smooth' 
       });
 })
+
 
 navFeatures.addEventListener('click', () => {
     document.querySelector('.unlimited').scrollIntoView({ 
@@ -47,4 +39,4 @@ function scrollFunction() {
   }
 }
 
-
+$('[data-toggle="tooltip"]').tooltip()

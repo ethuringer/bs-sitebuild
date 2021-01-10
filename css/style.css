@@ -113,41 +113,6 @@ a.nav-link:focus {
     background-position: center, center;
 }
 
-/* .phone-bg {
-    background-image: url("/img/phone.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding-bottom: 6.5rem;
-    padding-left: 1.4rem;
-    padding-right: 1.4rem;
-    padding: 5.3rem 1.3rem;
-}
-
-.demo {
-    width: 100%;
-
-} */
-
-/* .phone {
-    position: relative;
-    width: 100%;
-    top: 0;
-}
-
-.demo {
-    position: absolute;
-    width: 76%;
-    left: 1.72rem;
-    top: 4rem;
-}
-
-@media (max-width: 768px) {
-    .demo {
-        left: 122px;
-        top: 64px;
-    }
-} */
-
 .discover {
     background-color: #fdcc52;
 }
@@ -201,7 +166,6 @@ a.nav-link:focus {
     border-radius: 50px;
     padding: 10px 15.5px;
     font-size: 2rem;
-    color: white;
 }
 
 .facebook {
@@ -209,7 +173,6 @@ a.nav-link:focus {
     border-radius: 50px;
     padding: 10px 21.5px;
     font-size: 2rem;
-    color: white;
 }
 
 .google-plus {
@@ -217,7 +180,6 @@ a.nav-link:focus {
     border-radius: 50px;
     padding: 10px 11.5px;
     font-size: 2rem;
-    color: white;
 }
 
 footer {
